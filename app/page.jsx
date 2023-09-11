@@ -2,9 +2,6 @@ import Feed from "@components/Feed";
 import { connectToDB } from '@utils/database';
 
 const Home = () => {
-  console.log('process.env.NEXTAUTH_SECRET',process.env.NEXTAUTH_SECRET);
-  console.log('process.env.NEXTAUTH_SECRET',process.env.NEXTAUTH_URL);
-  console.log('process.env.NEXTAUTH_SECRET',process.env.NEXTAUTH_URL_INTERNAL);
   return (
     <section className='w-full flex-center flex-col'>
       <h1 className='head_text text-center'>
